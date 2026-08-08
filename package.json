@@ -1,0 +1,19 @@
+{
+  "name": "namastereact-handson",
+  "version": "1.0.0",
+  "description": "This is a thirutadi course",
+  "license": "ISC",
+  "author": "Jeevakumaran",
+  "type": "commonjs",
+  
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  }
+}
