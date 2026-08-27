@@ -5,11 +5,14 @@
   "license": "ISC",
   "author": "Jeevakumaran",
   "type": "commonjs",
-  
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.16.4"
   },
   "dependencies": {
